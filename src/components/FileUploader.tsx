@@ -38,6 +38,7 @@ const FileUploader: React.FC = () => {
                 type="file"
                 ref={fileInputRef}
                 onChange={handleFileChange}
+                accept=".qit"
                 style={{ display: 'none' }}
             />
         </div>
